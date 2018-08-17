@@ -1,10 +1,10 @@
 # StringScanner
 
-[![Build Status](https://travis-ci.org/oarrabi/StringScanner.svg?branch=master)](https://travis-ci.org/oarrabi/StringScanner)
-[![codecov](https://codecov.io/gh/oarrabi/StringScanner/branch/master/graph/badge.svg)](https://codecov.io/gh/oarrabi/StringScanner)
-[![Platform](https://img.shields.io/badge/platform-osx-lightgrey.svg)](https://travis-ci.org/oarrabi/StringScanner)
-[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://travis-ci.org/oarrabi/StringScanner)
-[![Language: Swift](https://img.shields.io/badge/language-swift-orange.svg)](https://travis-ci.org/oarrabi/StringScanner)
+[![Build Status](https://travis-ci.org/getGuaka/StringScanner.svg?branch=master)](https://travis-ci.org/getGuaka/StringScanner)
+[![codecov](https://codecov.io/gh/getGuaka/StringScanner/branch/master/graph/badge.svg)](https://codecov.io/gh/getGuaka/StringScanner)
+[![Platform](https://img.shields.io/badge/platform-osx-lightgrey.svg)](https://travis-ci.org/getGuaka/StringScanner)
+[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://travis-ci.org/getGuaka/StringScanner)
+[![Language: Swift](https://img.shields.io/badge/language-swift-orange.svg)](https://travis-ci.org/getGuaka/StringScanner)
 [![CocoaPods](https://img.shields.io/cocoapods/v/StringScanner.svg)](https://cocoapods.org/pods/StringScanner)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -193,23 +193,23 @@ You can install Swiftline using CocoaPods, carthage and Swift package manager
     pod 'StringScanner'
 
 ### Carthage
-    github 'oarrabi/StringScanner'
+    github 'getGuaka/StringScanner'
 
 ### Swift Package Manager
 Add swiftline as dependency in your `Package.swift`
 
-```
+```swift
   import PackageDescription
 
   let package = Package(name: "YourPackage",
     dependencies: [
-      .Package(url: "https://github.com/oarrabi/StringScanner.git", majorVersion: 0),
+      .Package(url: "https://github.com/getGuaka/StringScanner.git", from: "0.0.0"),
     ]
   )
 ```
 
 ## Tests
-Tests can be found [here](https://github.com/oarrabi/StringScanner/tree/master/Tests). 
+Tests can be found [here](https://github.com/getGuaka/StringScanner/tree/master/Tests).
 
 Run them with 
 ```
