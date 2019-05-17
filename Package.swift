@@ -21,5 +21,6 @@ let package = Package(
                 "StringScanner"
             ]
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v4, .v4_2, .v5]
 )
